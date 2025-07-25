@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+._*
+.Trashes
+
+# Editor backup and temp files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Uncomment to exclude Git config from version control
+.gitconfig
