@@ -2,6 +2,7 @@ tap "jesseduffield/lazygit"
 tap "osx-cross/arm"
 tap "osx-cross/avr"
 tap "qmk/qmk"
+tap "homebrew/cask-fonts"
 
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
@@ -78,8 +79,12 @@ brew "qmk/qmk/qmk"
 
 # Web browser
 cask "google-chrome"
+# Gecko based web browser
+cask "zen"
 # Markdown note-taking app
 cask "obsidian"
+# Time blocking and productivity platform
+cask "akiflow"
 # Music streaming service
 cask "spotify"
 # VPN client for secure internet access and private browsing
@@ -108,3 +113,7 @@ cask "kitty"
 cask "docker-desktop"
 # Distribution of the Python and R programming languages for scientific computing
 cask "anaconda"
+
+# Fonts
+cask "font-fira-code-nerd-font"
+cask "font-sn-pro"
